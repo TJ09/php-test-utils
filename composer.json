@@ -1,0 +1,30 @@
+{
+	"name": "tj09/test-utils",
+	"description": "Mocking utils for test cases.",
+	"license": "MIT",
+	"require": {
+		"php": ">=8",
+		"phpunit/phpunit": "^10.0 || ^11.0"
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "^1.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Technoized\\TestUtil\\": "src/"
+		}
+	},
+	"archive": {
+		"exclude": [
+			"/.editorconfig",
+			"/.hgignore",
+			"/.hgtags",
+			"/.kateconfig",
+			"/.php-cs-fixer.php",
+			"/composer.lock",
+			"/phpunit.xml",
+			"/psalm.xml",
+			"/tests"
+		]
+	}
+}
